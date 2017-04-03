@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* line 1, C:/Users/Josef/Documents/GitHub/olap/sass/_extends.scss */
+.div-liner, .feature-icons, .features-head {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* line 1, C:/Users/Josef/Documents/GitHub/olap/sass/_reset.scss */
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 3, C:/Users/Josef/Documents/GitHub/olap/sass/_base.scss */
+body {
+  color: white;
+  font-family: "Roboto", serif;
+}
+
+/* line 1, C:/Users/Josef/Documents/GitHub/olap/sass/_header.scss */
+header {
+  float: left;
+  position: relative;
+  display: block;
+  background: grey;
+  height: 20vh;
+  width: 100vw;
+}
+
+/* line 8, C:/Users/Josef/Documents/GitHub/olap/sass/_header.scss */
+header img {
+  height: 10vh;
+}
+
+/* line 13, C:/Users/Josef/Documents/GitHub/olap/sass/_header.scss */
+#scroll-header {
+  width: 100vw;
+  visibility: hidden;
+  top: -10vh;
+}
+
+/* line 19, C:/Users/Josef/Documents/GitHub/olap/sass/_header.scss */
+.nav {
+  font-family: "Roboto", serif;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  float: left;
+  height: auto;
+  display: block;
+}
+
+/* line 27, C:/Users/Josef/Documents/GitHub/olap/sass/_header.scss */
+.nav ul {
+  float: left;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 37, C:/Users/Josef/Documents/GitHub/olap/sass/_header.scss */
+.nav li {
+  display: inline-block;
+}
+
+/* line 39, C:/Users/Josef/Documents/GitHub/olap/sass/_header.scss */
+.nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+/* line 44, C:/Users/Josef/Documents/GitHub/olap/sass/_header.scss */
+.nav a:hover {
+  color: red;
+}
+
+/* line 23, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+.js-content {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70vw;
+}
+
+/* line 29, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+.features-box {
+  background-color: #e4434a;
+  margin-top: 30vh;
+}
+
+/* line 36, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+.date, .forecast {
+  color: #e4434a;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+/* line 41, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+.date #white, .forecast #white {
+  color: white !important;
+}
+
+/* line 46, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+.wrapper {
+  background: url("../resources/images/a4f_bg.jpg") no-repeat #1b1f26;
+  background-position: right;
+  height: 40vh;
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin-top: 0vh;
+  z-index: -1;
+}
+
+/* line 56, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+h1 {
+  font-size: 6vmin;
+}
+
+/* line 60, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+.feature-icons {
+  padding: 0 20vw 0 20vw;
+}
+
+/* line 63, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+.feature-icons .icons {
+  width: 20vw;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 72, C:/Users/Josef/Documents/GitHub/olap/scss/main.scss */
+.features-head #features-h {
+  margin: 0 3vw 0 3vw;
+}
+
+/*# sourceMappingURL=../css/main.map */

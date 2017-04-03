@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+      
+   
+
+@import
+    "../sass/extends",
+    "../sass/fonts",
+    "../sass/colors",
+  "../sass/variables",
+  "../sass/mixins",
+  "../sass/icons",
+"../sass/layout",
+ "../sass/base",
+      "../sass/header"
+;
+
+.container {
+     
+}
+
+.js-content {
+    @include centerer(true, false);
+    width:70vw;
+}
+
+
+.features-box {
+   
+    background-color: $red-color;
+    margin-top: 30vh;
+    
+}
+
+.date, .forecast {
+    color: $red-color; 
+    display: inline-block;
+    width:100%;
+    text-align: left;
+    #white {
+        color: white !important;
+    }
+}
+
+.wrapper {
+    background: url("../resources/images/a4f_bg.jpg") no-repeat #1b1f26;
+    background-position: right;
+    height: 40vh;
+    width: 100vw;
+    @include centerer(true, false);
+    margin-top: 0vh;
+    z-index: -1;
+}
+
+h1 {
+    font-size: 6vmin;
+}
+
+.feature-icons {
+  padding: 0 20vw 0 20vw;
+  @extend .div-liner;
+    .icons{
+        width: 20vw;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.features-head {
+     @extend .div-liner;
+    #features-h {
+        margin: 0 3vw 0 3vw;
+    }
+}

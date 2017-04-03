@@ -1,0 +1,48 @@
+header {
+    float: left;
+      position: relative;
+      display: block;
+    background: grey;
+    height: 20vh;
+    width: 100vw;
+    img {
+        height: 10vh;
+    }
+}
+
+#scroll-header {
+    width: 100vw;
+    visibility: hidden;
+    top: -10vh;
+}
+
+.nav {
+    font-family: $roboto;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    float: left;
+    height: auto;
+    display: block;
+  ul {
+      float: left;
+      position: relative;
+      display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+      
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+      color: whitesmoke;
+      &:hover {
+        color:red;
+    }
+  }
+}
