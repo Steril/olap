@@ -18,5 +18,17 @@ function getOrdinal(n) {
    var forecast_string = json.query.results.channel.item.condition.text;
      var forecast_element = document.getElementById("forecast_h");
      forecast_element.insertAdjacentHTML('beforeend', forecast_string );
-    });      
+    });   
+    
+    var portHeight =  $( window ).height();
+    var halfHeight = $(window).height()/2;
+    
+    jQuery(window).scroll(function() {
+if($(window).scrollTop() > $(document).height()/5) {
+    jQuery('#scroll-header').stop().animate({ top: '0px' });
+} else {
+    jQuery('#scroll-header').stop().animate({ top: '-100vw' });
+}
+});
+    
  }); // document ready

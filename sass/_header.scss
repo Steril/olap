@@ -1,45 +1,66 @@
 header {
     float: left;
-      position: relative;
-      display: block;
-    background: grey;
-    height: 20vh;
+      position: absolute;
+      display: inline block;
+    height: 20vmin;
     width: 100vw;
+    text-align: center;
+     display:flex;
+   flex-wrap: wrap;
+     overflow: hidden;
+    margin-top: 5vh;
+
     img {
-        height: 10vh;
+        width: 40vmin;
+        height: 10vmin;
+      // margin: 0 0 0 2vmin;
+        margin-left: 10vmin;
+        float: left;
+        object-fit: contain;
     }
 }
 
 #scroll-header {
     width: 100vw;
     visibility: hidden;
-    top: -10vh;
+    top: -20vmin;
+    height: 20vmin;
+   
 }
 
 .nav {
     font-family: $roboto;
-    position: absolute;
     text-align: center;
-    width: 100%;
-    float: left;
+    margin-top: 2vmin;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
     height: auto;
     display: block;
+     overflow: hidden;
+    position:relative;
+    
   ul {
-      float: left;
+      float: right;
       position: relative;
       display: block;
-    margin: 0;
+   margin: 0;
     padding: 0;
     list-style: none;
       
   }
 
-  li { display: inline-block; }
+  li {
+      float:left;
+      position:relative; 
+      display: inline-block;
+    }
 
   a {
     display: block;
-    padding: 6px 12px;
+    padding: 1vmin 1vmin;
     text-decoration: none;
+      font-size: 3vmin;
       color: whitesmoke;
       &:hover {
         color:red;
