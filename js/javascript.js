@@ -27,7 +27,7 @@ function getOrdinal(n) {
 if($(window).scrollTop() > $(document).height()/5) {
     jQuery('#scroll-header').stop().animate({ top: '0px' });
 } else {
-    jQuery('#scroll-header').stop().animate({ top: '-100vw' });
+    jQuery('#scroll-header').stop().animate({ top: '-100px' });
 }
 });
     

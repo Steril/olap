@@ -21,10 +21,28 @@ header {
 }
 
 #scroll-header {
-    width: 100vw;
     visibility: hidden;
-    top: -20vmin;
+ /*   float: left;
+      position: fixed;
+      display: inline block;
     height: 20vmin;
+    width: 100vw;
+    text-align: center;
+     display:flex;
+   flex-wrap: wrap;
+     overflow: hidden;
+    margin-top: 5vh;
+    background-color: darkgrey;
+    display: hidden;
+
+    img {
+        width: 40vmin;
+        height: 10vmin;
+      // margin: 0 0 0 2vmin;
+        margin-left: 10vmin;
+        float: left;
+        object-fit: contain;
+    } */
    
 }
 
